@@ -12,36 +12,15 @@
   ?>
 </head>
 
-<body>
-  <nav>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Quem Somos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Produtos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contato</a>
-      </li>
-    </ul>
-  </nav>
-  <main>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://media.moddb.com/images/mods/1/31/30119/Test.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </main>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<body class="container">
   <?php
+    include "pages/1_topo.php";
+  ?>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+<?php
   include "./js/scripts.php";
   ?>
 </body>
