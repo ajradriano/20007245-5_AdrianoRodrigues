@@ -7,21 +7,17 @@
   <nav>
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Início</a>
+        <a class="nav-link" href="index.php?tela=home.php">Início</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">A Honey</a>
+        <a class="nav-link" href="index.php?tela=quem_somos.php">A Honey</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Produtos</a>
+        <a class="nav-link" href="index.php?tela=lista_produtos.php">Produtos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contato</a>
+        <a class="nav-link" href="index.php?tela=contato.php">Contato</a>
       </li>
     </ul>
   </nav>
 </div>
-<?php
-  include "1.1_banner.php";
-
-?>
