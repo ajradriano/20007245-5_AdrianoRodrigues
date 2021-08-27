@@ -30,15 +30,25 @@
     justify-content: space-evenly;
   }
 
-  .logo {
+  .header .logo {
     width: 160px;
     height: auto;
     margin: 20px;
     padding: 5px;
   }
-  .logo img {
+  .header .logo img {
     width: 100%;
     height: 100%;
+  }
+
+  .header nav {
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+
+  .header nav .nav-link {
+    color: #272322;
+    font-weight: 600;
   }
 
   .banner {

@@ -1,11 +1,13 @@
 <div class="header">
   <div class="logo">
-    <img src="images/logo_transparent.png" alt="logo">
+    <a href="#">
+      <img src="images/logo_transparent.png" alt="logo">
+    </a>
   </div>
   <nav>
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active" href="#">Início</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">A Honey</a>
