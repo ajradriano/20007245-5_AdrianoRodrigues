@@ -1,6 +1,6 @@
 <div class="header">
   <div class="logo">
-    <a href="#">
+    <a href="index.php?tela=home.php">
       <img src="images/logo_transparent.png" alt="logo">
     </a>
   </div>
@@ -11,9 +11,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="index.php?tela=quem_somos.php">A Honey</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.php?tela=lista_produtos.php">Produtos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="index.php?tela=contato.php">Contato</a>
