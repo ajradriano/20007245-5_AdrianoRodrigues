@@ -11,5 +11,5 @@
   loop 
   autoplay>
 </lottie-player>
-<a href="index.php" class="btn btn-warning">Voltar para Honey</a>
+<a href="index.php?tela=home.php" class="btn btn-warning">Voltar para Honey</a>
 </div>
