@@ -8,5 +8,5 @@
 
   <span>Que tal conhecer nossa linha de prosutos feitos com carinho e mel?</span>
 
-  <a href="index.php?tela=lista_produtos.php" class="btn btn-warning default-button mt-4">Produtos</a>
+  <a href="index.php?tela=home.php" class="btn btn-warning default-button mt-4">Produtos</a>
 </div>
